@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f5f0ff;
+  --foreground: #4a2070;
+  /* Purple-Pink Theme */
+  --pink-bg:        #f5f0ff;   /* พื้นหลังม่วงอ่อนมาก */
+  --pink-deep:      #c084fc;   /* ม่วงชมพูหลัก */
+  --pink-mid:       #e879f9;   /* ชมพูม่วงกลาง */
+  --pink-light:     #fae8ff;   /* ม่วงอ่อน */
+  --pink-paper:     #fdf4ff;   /* กระดาษโน้ตสีม่วงซีด */
+  --pink-dark:      #a855f7;   /* ม่วงเข้มสำหรับ hover/border */
+  --pink-text:      #4a2070;   /* สีตัวอักษรหลัก */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-mali);
+  --font-mono: var(--font-mali);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-mali), Arial, Helvetica, sans-serif;
+}
