@@ -109,8 +109,8 @@ function PhotoCard({ photoUrl, idx, style, photoDate }: PhotoCardProps) {
 export default function GallerySection({ onNext }: GallerySectionProps) {
   const myPhotos = [
     "/images/1.jpg",
-    "/images/3.jpg",
     "/images/2.jpg",
+    "/images/3.jpg",
     "/images/4.jpg",
     "/images/5.jpg",
     "/images/6.jpg",
